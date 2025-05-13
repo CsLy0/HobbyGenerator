@@ -1,6 +1,5 @@
 ﻿Random rand = new Random();
 var randomNumber = rand.Next(0, 5);
-var randomName = rand.Next();
 string[] names = { "Marius", "Ole", "Michal", "Peder", "Vårin" };
 string randomNameString = names[rand.Next(names.Length)];
 
